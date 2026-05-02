@@ -2,7 +2,7 @@ import telebot
 import asyncio
 import threading
 
-API_TOKEN = '7787566059:AAERi_p07C7EFHvywTR3YwIqgtiAFoQZ6_c'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
